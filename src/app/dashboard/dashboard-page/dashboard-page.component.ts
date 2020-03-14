@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataFetcherService } from 'src/app/service/data-fetcher.service';
 
 @Component({
   selector: 'app-dashboard-page',
@@ -6,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dashboard-page.component.scss']
 })
 export class DashboardPageComponent implements OnInit {
-
-  constructor() { }
+  itemForMainContent:any;
+  constructor() {}
 
   ngOnInit() {
   }
 
+  onSideItemClick(value) {
+    this.itemForMainContent = JSON.parse(JSON.stringify(value));
+  }
 }
