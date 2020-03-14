@@ -13,6 +13,13 @@ import { DashboardComponent } from './dashboard/dashboard/dashboard.component';
 import { ChartsModule } from './charts/charts.module';
 import { HttpClientModule } from '@angular/common/http';
 import { DataFetcherService } from './service/data-fetcher.service';
+import { LeftSideNavComponent } from './dashboard/left-side-nav/left-side-nav.component';
+import { RightSideNavComponent } from './dashboard/right-side-nav/right-side-nav.component';
+import { MainContentComponent } from './dashboard/main-content/main-content.component';
+import { BulletinComponent } from './bulletin/bulletin.component';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatCardModule} from '@angular/material/card';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 @NgModule({
   declarations: [
@@ -21,6 +28,10 @@ import { DataFetcherService } from './service/data-fetcher.service';
     InfoComponent,
     DashboardPageComponent,
     DashboardComponent,
+    LeftSideNavComponent,
+    RightSideNavComponent,
+    MainContentComponent,
+    BulletinComponent,
   ],
   imports: [
     BrowserModule,
@@ -28,7 +39,10 @@ import { DataFetcherService } from './service/data-fetcher.service';
     RouterModule.forRoot(APP_ROUTES, {useHash: true}), 
     // BrowserAnimationsModule,
     ChartsModule,
-    HttpClientModule
+    HttpClientModule,
+    MatSidenavModule,
+    MatCardModule,
+    MatGridListModule
   ],
   providers: [DataFetcherService],
   bootstrap: [AppComponent]

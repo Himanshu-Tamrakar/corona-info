@@ -38,27 +38,5 @@ export class DashboardComponent implements OnInit {
   ];
 
   ngOnInit() {
-
-    setTimeout(() => {
-      alert()
-      this.pieGridData = [
-        {
-          "name": "Total Indian Infected",
-          "value": 14
-        },
-        {
-          "name": "Total Forreigner Infected",
-          "value": 4
-        },
-        {
-          "name": "Death",
-          "value": 4
-        },
-        {
-          "name": "Cured",
-          "value": 6
-        }
-      ]
-    }, 3000)
   }
 }
