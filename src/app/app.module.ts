@@ -11,6 +11,7 @@ import { DashboardPageComponent } from './dashboard/dashboard-page/dashboard-pag
 import { DashboardComponent } from './dashboard/dashboard/dashboard.component';
 // import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ChartsModule } from './charts/charts.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ChartsModule } from './charts/charts.module';
     NgxChartsModule, 
     RouterModule.forRoot(APP_ROUTES, {useHash: true}), 
     // BrowserAnimationsModule,
-    ChartsModule
+    ChartsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
