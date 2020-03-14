@@ -1,0 +1,15 @@
+{
+    "india": {
+        "total": 84,
+        "foriener": 17,
+        "indians": 67,
+        "cured":10,
+        "death": 2,
+        "bulletins": [
+            {
+                "title": "Something",
+                "url": "Something"
+            }
+        ]
+    }
+}

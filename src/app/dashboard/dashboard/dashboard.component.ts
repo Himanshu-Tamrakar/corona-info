@@ -18,6 +18,47 @@ export class DashboardComponent implements OnInit {
   constructor() {
   }
 
+  pieGridData = [
+    {
+      "name": "Total Indian Infected",
+      "value": 10
+    },
+    {
+      "name": "Total Forreigner Infected",
+      "value": 2
+    },
+    {
+      "name": "Death",
+      "value": 2
+    },
+    {
+      "name": "Cured",
+      "value": 6
+    }
+  ];
+
   ngOnInit() {
+
+    setTimeout(() => {
+      alert()
+      this.pieGridData = [
+        {
+          "name": "Total Indian Infected",
+          "value": 14
+        },
+        {
+          "name": "Total Forreigner Infected",
+          "value": 4
+        },
+        {
+          "name": "Death",
+          "value": 4
+        },
+        {
+          "name": "Cured",
+          "value": 6
+        }
+      ]
+    }, 3000)
   }
 }
