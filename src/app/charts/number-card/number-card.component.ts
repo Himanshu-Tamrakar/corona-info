@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { single } from '../../../assets/data/tiledata';
+// import { single } from '../../../assets/data/tiledata';
+import { DataFetcherService } from 'src/app/service/data-fetcher.service';
+import { debug } from 'util';
 
 @Component({
   selector: 'app-number-card',
@@ -9,15 +11,20 @@ import { single } from '../../../assets/data/tiledata';
 export class NumberCardComponent implements OnInit {
   single: any[];
   view: any[] = [700, 400];
+  
 
   colorScheme = {
     domain: ['#5AA454', '#E44D25', '#CFC0BB', '#7aa3e5', '#a8385d', '#aae3f5']
   };
   cardColor: string = '#0b0c0c';
-  
-  constructor() {
-    Object.assign(this, { single });
+  data:any;
+  constructor(private dataFetcherService:DataFetcherService) {
+    this.dataFetcherService.getDataFrom("data/tile/tile.json").subscribe(r => {
+      this.data = r;
+    })    
   }
+
+
 
   ngOnInit() {
   }

@@ -12,6 +12,7 @@ import { DashboardComponent } from './dashboard/dashboard/dashboard.component';
 // import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ChartsModule } from './charts/charts.module';
 import { HttpClientModule } from '@angular/common/http';
+import { DataFetcherService } from './service/data-fetcher.service';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,7 @@ import { HttpClientModule } from '@angular/common/http';
     ChartsModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [DataFetcherService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

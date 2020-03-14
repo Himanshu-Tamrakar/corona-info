@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { multi } from '../../../assets/data/line-chart';
+// import { multi } from '../../../assets/data/line-chart';
+import { DataFetcherService } from 'src/app/service/data-fetcher.service';
 
 @Component({
   selector: 'app-line-chart',
@@ -29,10 +30,12 @@ export class LineChartComponent implements OnInit {
     domain: ['#5AA454', '#E44D25', '#CFC0BB', '#7aa3e5', '#a8385d', '#aae3f5']
   };
 
-  constructor() {
-    Object.assign(this, { multi });
+  data:any;
+  constructor(private dataFetcherService:DataFetcherService) {
+    this.dataFetcherService.getDataFrom("data/line/line.json").subscribe(r => {
+      this.data = r;
+    })    
   }
-
   onSelect(data): void {
     console.log('Item clicked', JSON.parse(JSON.stringify(data)));
   }

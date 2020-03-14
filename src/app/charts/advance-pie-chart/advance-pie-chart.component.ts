@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { single } from '../../../assets/data/advance-pi-chart';
+// import { single } from '../../../assets/data/advance-pi-chart';
+import { DataFetcherService } from 'src/app/service/data-fetcher.service';
 
 @Component({
   selector: 'app-advance-pie-chart',
@@ -20,8 +21,11 @@ export class AdvancePieChartComponent implements OnInit {
     domain: ['#5AA454', '#A10A28', '#C7B42C', '#AAAAAA']
   };
 
-  constructor() {
-    Object.assign(this, { single });
+  data:any;
+  constructor(private dataFetcherService:DataFetcherService) {
+    this.dataFetcherService.getDataFrom("data/pi/pi.json").subscribe(r => {
+      this.data = r;
+    })    
   }
 
   ngOnInit() {}
