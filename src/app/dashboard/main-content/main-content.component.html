@@ -1,19 +1,5 @@
-<mat-grid-list cols="8" rowHeight="100%">
-    <mat-grid-tile
-        [colspan]="'5'"
-        [rowspan]="'1'"
-        [style.background]="'lightblue'">
-         <app-pie-grid [pieGridData]="pieGridData"></app-pie-grid>
-         <app-bulletin [bulletins]="bulletins"></app-bulletin> 
-    </mat-grid-tile>
+<app-pie-grid [pieGridData]="pieGridData"></app-pie-grid>
+<app-bulletin [bulletins]="bulletins"></app-bulletin>
 
-    <mat-grid-tile
-        [colspan]="'3'"
-        [rowspan]="'1'"
-        [style.background]="'lightpink'">
-        <app-line-chart></app-line-chart>
-        <app-line-chart></app-line-chart>
-    </mat-grid-tile>
-
-  </mat-grid-list>
-  
+<app-line-chart></app-line-chart>
+<app-line-chart></app-line-chart>

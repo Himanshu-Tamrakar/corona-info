@@ -17,9 +17,6 @@ import { LeftSideNavComponent } from './dashboard/left-side-nav/left-side-nav.co
 import { RightSideNavComponent } from './dashboard/right-side-nav/right-side-nav.component';
 import { MainContentComponent } from './dashboard/main-content/main-content.component';
 import { BulletinComponent } from './bulletin/bulletin.component';
-import {MatSidenavModule} from '@angular/material/sidenav';
-import {MatCardModule} from '@angular/material/card';
-import {MatGridListModule} from '@angular/material/grid-list';
 
 @NgModule({
   declarations: [
@@ -40,9 +37,6 @@ import {MatGridListModule} from '@angular/material/grid-list';
     // BrowserAnimationsModule,
     ChartsModule,
     HttpClientModule,
-    MatSidenavModule,
-    MatCardModule,
-    MatGridListModule
   ],
   providers: [DataFetcherService],
   bootstrap: [AppComponent]
