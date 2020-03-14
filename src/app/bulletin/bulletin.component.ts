@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-bulletin',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bulletin.component.scss']
 })
 export class BulletinComponent implements OnInit {
-
+  @Input() bulletins: string;
   constructor() { }
 
   ngOnInit() {

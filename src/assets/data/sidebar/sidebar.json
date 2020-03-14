@@ -7,9 +7,79 @@
         "death": 2,
         "bulletins": [
             {
-                "title": "Something",
-                "url": "Something"
+                "title": "India becomes fifth country to isolate Covid-19 virus strain",
+                "url": "https://www.livemint.com/news/india/covid-19-india-becomes-5th-country-globally-to-isolate-virus-strain-11584102221498.html"
+            },
+            {
+                "title": "Airports Council seeks India to bail out airport, airline operators",
+                "url": "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/covid-19-airports-council-seeks-india-to-bail-out-airport-airline-operators/articleshow/74622240.cms"
+            },
+            {
+                "title": "IPL 2020 deferred until April 15",
+                "url": "https://www.espncricinfo.com/story/_/id/28895902/start-ipl-2020-postponed-april-15"
+            },
+            {
+                "title": "India Declares COVID-19 A 'National Disaster'",
+                "url": "https://news.abplive.com/news/india/india-declares-covid-19-a-national-disaster-1175302"
+            },
+            {
+                "title": "Pakistan on PM Modi's proposal",
+                "url": "https://economictimes.indiatimes.com/news/politics-and-nation/will-participate-in-saarc-video-conference-on-coronavirus-pakistan-on-pm-modis-proposal/articleshow/74623687.cms"
             }
         ]
-    }
+    },
+    
+        "Delhi": {
+            "total": 9,
+            "foriener": 0,
+            "indians": 7,
+            "cured":1,
+            "death": 1,
+            "bulletins": [
+                {
+                    "title": "IIT Delhi Asks Students to Vacate Campus by March 15",
+                    "url": "https://www.hindustantimes.com/education/iit-delhi-orders-indian-students-to-vacate-hostels-over-covid-19/story-sqOjUhuWLTWs8BHVE1syZO.html"
+                },
+                {
+                    "title": "The government has set up a task force to monitor and control the Delhi coronavirus situation",
+                    "url": "https://www.jagranjosh.com/current-affairs/delhi-government-sets-up-task-force-under-cm-arvind-kejriwal-to-tackle-coronavirus-outbreak-1583388243-1"
+                },
+                {
+                    "title": "All Delhi cinema halls, schools to remain closed till end of this month",
+                    "url": "https://www.livemint.com/news/india/coronavirus-update-all-delhi-cinema-halls-schools-to-remain-closed-till-end-of-this-month-11584013012186.html"
+                },
+                {
+                    "title": "Arvind Kejriwal promises strict action against chemists who stock up sanitisers",
+                    "url": "https://www.firstpost.com/health/coronavirus-outbreak-arvind-kejriwal-promises-strict-action-against-chemists-who-stock-up-sanitisers-8134291.html"
+                },
+                {
+                    "title": "Helpline Number - 011-22307145"
+                }
+            ]
+        },
+        "Haryana": {
+            "total": 14,
+            "foriener": 14,
+            "indians": 0,
+            "cured":0,
+            "death": 0,
+            "bulletins": [
+                {
+                    "title": "Haryana govt shuts all universities, colleges till March 31 due to coronavirus",
+                    "url": "https://economictimes.indiatimes.com/news/politics-and-nation/haryana-govt-shuts-all-universities-colleges-till-march-31-due-to-coronavirus/articleshow/74611531.cms?from=mdr"
+                },
+                {
+                    "title": "Haryana health minister links coronavirus to non-veg diet, says 'be vegetarian'",
+                    "url": "https://www.theweek.in/news/india/2020/03/14/haryana-health-minister-links-coronavirus-to-non-veg-diet-says-be-vegetarian.html?fbclid=IwAR0WyBD72jSsIICjL0xOutuXXyPSvzL2YSOMGk2G-1418p4Nd-e6pzt-2vk"
+                },
+                {
+                    "title": "Haryana government to carve out zones to screen people",
+                    "url": "https://timesofindia.indiatimes.com/city/gurgaon/coronavirus-government-to-carve-out-zones-to-screen-people/articleshow/74601998.cms"
+                },
+                {
+                    "title": "Helpline Number - 8558893911"
+                }
+            ]
+        }
+    
 }

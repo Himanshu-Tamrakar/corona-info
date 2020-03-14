@@ -1,1 +1,5 @@
-<p>bulletin works!</p>
+<ul>
+    <li *ngFor="let item of bulletins">
+        <a [href]="item.url"> {{item.title}}</a>
+    </li>
+</ul>
