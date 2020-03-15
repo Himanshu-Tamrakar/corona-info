@@ -1,3 +1,5 @@
+
+
 <div class="container text-center my-3">
   <!-- <h2 class="font-weight-light">Bootstrap 4 - Multi Item Carousel</h2> -->
   <div class="row mx-auto my-auto">
@@ -7,7 +9,7 @@
           [ngClass]="k == 0 ? 'active' : ''">
           <div *ngFor="let item of corousal; trackBy:index;" class="col-md-4">
             <!-- <div class="card">
-              <img class="card-img-top" [src]="item.img" alt="Card image cap">
+              <img class="card-img-top card-img-caption" [src]="item.img" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">{{item.title}}e</h5>
              
@@ -16,23 +18,32 @@
             </div> -->
 
             <!-- <div class="card">
-              <div class="img-wrapper">
-                  <img class="card-img-top" [src]="item.img"/>
-                  <div class="img-overlay"> <h2>{{item.title}}</h2> </div>
+              <img class="card-img-top" [src]="item.img">
+              <div class="card-block">
+                  <figure class="profile">
+                      <img src="https://picsum.photos/200/150/?random" class="profile-avatar" alt="">
+                  </figure>
+                  <h4 class="card-title mt-3">Tawshif Ahsan Khan</h4>
+                  <div class="meta">
+                      <a>Friends</a>
+                  </div>
+                  <div class="card-text">
+                      Tawshif is a web designer living in Bangladesh.
+                  </div>
               </div>
-              <div class="card-body">
-                  <h2 class="card-title">My Card</h2>
-                  <p class="card-text">My Card Text</p>
+              <div class="card-footer">
+                  <small>Last updated 3 mins ago</small>
+                  <button class="btn btn-secondary float-right btn-sm">show</button>
               </div>
-          </div> -->
+            </div> -->
 
-            <div class="card" style="width: 20rem;">
+            <!-- <div class="card" style="width: 20rem;">
               <div class="card-img-caption">
                 <p class="card-text">
                   {{item.title}}</p>
                 <img class="card-img-top" [src]="item.img" alt="Card image cap">
               </div>
-            </div>
+            </div> -->
 
           </div>
         </div>
