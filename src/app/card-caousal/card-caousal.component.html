@@ -12,11 +12,11 @@
         <div class="carousel-item" *ngFor="let corousal of data; trackBy:index; let k = index"
           [ngClass]="k == 0 ? 'active' : ''">
           <div *ngFor="let item of corousal; trackBy:index;" class="col-md-4">
-            <div class="card">
+            <div class="card card-height-fixed">
               <img class="card-img-top height-fixed" [src]="item.img" alt="Card image cap">
               <div class="card-body">
-                <p class="card-title">{{item.title}}e</p>
-                <a [href]="item.sources" class="btn btn-primary">Go somewhere</a>
+                <p class="card-title font-size-p-slider">{{item.title}}</p>
+                <a [href]="item.sources" class="btn btn-primary bottom-button">Go somewhere</a>
               </div>
             </div>
           </div>
