@@ -11,7 +11,7 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-3 col-lg-2 mb-4">
-      <app-left-side-nav></app-left-side-nav>
+      <app-left-side-nav (output)="onSideItemClick($event)"></app-left-side-nav>
     </div>
     <div class="col-md-9 col-lg-10">
       <app-main-content></app-main-content>

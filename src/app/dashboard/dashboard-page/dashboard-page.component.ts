@@ -15,5 +15,6 @@ export class DashboardPageComponent implements OnInit {
 
   onSideItemClick(value) {
     this.itemForMainContent = JSON.parse(JSON.stringify(value));
+    console.log(this.itemForMainContent)
   }
 }
