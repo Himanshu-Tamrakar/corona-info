@@ -13,7 +13,7 @@ export class PieGridComponent implements OnInit {
   @Input() pieGridData: string;
 
   single: any[];
-  view: any[] = [400, 300];
+  view: any[] = [500, 400];
   // label="sdsdsd";
 
   // options
