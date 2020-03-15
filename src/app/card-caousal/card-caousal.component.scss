@@ -58,5 +58,15 @@ header{
 .bottom-button{
   position: absolute;
   bottom: 7px;
-  right: 75px;
+  right: 100px;
+}
+
+.card-block {
+  font-size: 1em;
+  position: relative;
+  margin: 0;
+  padding: 1em;
+  border: none;
+  border-top: 1px solid rgba(34, 36, 38, .1);
+  box-shadow: none;
 }

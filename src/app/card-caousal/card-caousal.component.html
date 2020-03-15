@@ -5,7 +5,7 @@
         </span>
     </div>
 </nav>
-<div class="container text-center my-3 pr-0 mr-0">
+<div class="container text-center my-3">
   <div class="row mx-auto my-auto">
     <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
       <div class="carousel-inner w-100" role="listbox">
@@ -16,8 +16,11 @@
               <img class="card-img-top height-fixed" [src]="item.img" alt="Card image cap">
               <div class="card-body">
                 <p class="card-title font-size-p-slider">{{item.title}}</p>
+                <p class="card-block pb-5" >
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam velit quisquam veniam excepturi temporibus inventore corporis dicta.
+              </p>
               <div>
-                  <a [href]="item.sources" class="btn btn-primary bottom-button">Go somewhere</a>
+                  <a [href]="item.sources" class="btn btn-primary bottom-button">Read More</a>
               </div>
               </div>
             </div>
