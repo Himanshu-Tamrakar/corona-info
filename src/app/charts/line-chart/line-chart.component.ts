@@ -12,7 +12,7 @@ export class LineChartComponent implements OnInit {
   ngOnInit() {}
 
   multi: any[];
-  view: any[] = [700, 300];
+  // view: any[] = [700, 300];
 
   // options
   legend: boolean = true;

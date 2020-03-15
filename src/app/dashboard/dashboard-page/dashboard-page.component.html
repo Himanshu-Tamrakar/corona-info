@@ -1,4 +1,5 @@
 <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+<<<<<<< HEAD
     <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Corona Facts</a>
     <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
     <ul class="navbar-nav px-3">
@@ -6,8 +7,20 @@
             <a class="nav-link" href="#">Sign out</a>
         </li>
     </ul>
+=======
+  <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Corona Facts</a>
+  <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+  <ul class="navbar-nav px-3">
+    <li class="nav-item text-nowrap">
+      <a class="nav-link" href="#">Sign out</a>
+    </li>
+  </ul>
+>>>>>>> a7fafbd04b70a17945d92f783416b7d272371054
 </nav>
+
+
 <div class="container-fluid">
+<<<<<<< HEAD
     <div class="row">
         <div class="col-md-3 col-lg-2 mb-4">
             <app-left-side-nav></app-left-side-nav>
@@ -24,3 +37,14 @@
         </div>
     </div>
 </div>
+=======
+  <div class="row">
+    <div class="col-md-3 col-lg-2 mb-4">
+      <app-left-side-nav (onSideItemClick)="onSideItemClick($event)"></app-left-side-nav> 
+    </div>
+    <div class="col-md-9 col-lg-10">
+      <app-main-content [itemForMainContent]="itemForMainContent"></app-main-content>
+    </div>
+  </div>
+</div>
+>>>>>>> a7fafbd04b70a17945d92f783416b7d272371054

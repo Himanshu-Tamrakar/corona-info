@@ -1,10 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-export interface Tile {
-  color: string;
-  cols: number;
-  rows: number;
-  text: string;
-}
+
 
 @Component({
   selector: 'app-main-content',
@@ -12,7 +7,6 @@ export interface Tile {
   styleUrls: ['./main-content.component.scss']
 })
 export class MainContentComponent implements OnInit {
-  // @Input() itemForMainContent: any;
 
   @Input('itemForMainContent')
   set item(val: any) {
@@ -40,10 +34,6 @@ export class MainContentComponent implements OnInit {
 
   }
 
-  tiles: Tile[] = [
-    { text: 'One', cols: 3, rows: 1, color: 'lightblue' },
-    { text: 'Three', cols: 1, rows: 1, color: 'lightpink' },
-  ];
 
   pieGridData = [];
   bulletins = []
