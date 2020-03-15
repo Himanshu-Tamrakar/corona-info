@@ -19,6 +19,7 @@ import { BulletinComponent } from './bulletin/bulletin.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatCardModule} from '@angular/material/card';
 import {MatGridListModule} from '@angular/material/grid-list';
+import { CardsComponent } from './dashboard/cards/cards.component';
 
 
 @NgModule({
@@ -32,6 +33,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
     RightSideNavComponent,
     MainContentComponent,
     BulletinComponent,
+    CardsComponent,
   ],
   imports: [
     BrowserModule,
