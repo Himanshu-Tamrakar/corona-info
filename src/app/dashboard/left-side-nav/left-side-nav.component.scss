@@ -6,15 +6,23 @@ nav{
     z-index: 100;
     padding: 48px 0 0;
     width: 220px;
+    // background: linear-gradient(#2a1c5a, #4b3a6e);
+    background: linear-gradient(#412894, #504b5a);
+
 }
   
   .nav-link {
     color: #555;
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 500;
     // font-weight: bold;
   }
   
   .nav-link:hover {
     background: #dedcdc;
+    background: #fff;
+    color: #000;
   }
 
   
