@@ -337,6 +337,7 @@
             "indians": 14,
             "cured":0,
             "death": 0,
+            
             "bulletins": [
                 {
                     "title": "Maharashtra closes malls till 31 March, postpones exams up to Class 9 as number of reported cases rises to 26",
@@ -361,6 +362,7 @@
             "indians": 1,
             "cured":0,
             "death": 0,
+            
             "bulletins": [
                 {
                     "title": "Day after positive coronavirus case, Andhra Pradesh steps up vigil",
