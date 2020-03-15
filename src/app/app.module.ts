@@ -20,6 +20,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatCardModule} from '@angular/material/card';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { CardsComponent } from './dashboard/cards/cards.component';
+import { CardCaousalComponent } from './card-caousal/card-caousal.component';
 
 
 @NgModule({
@@ -34,6 +35,7 @@ import { CardsComponent } from './dashboard/cards/cards.component';
     MainContentComponent,
     BulletinComponent,
     CardsComponent,
+    CardCaousalComponent,
   ],
   imports: [
     BrowserModule,
