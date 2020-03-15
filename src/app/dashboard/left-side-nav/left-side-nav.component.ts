@@ -23,7 +23,6 @@ export class LeftSideNavComponent implements OnInit {
   }
 
   onClick(elem) {
-    debugger
     const selectedElem = this.sidebarData[elem];
     this.onSideItemClick.next(selectedElem);
   }
