@@ -13,8 +13,9 @@ export class NumberCardComponent implements OnInit {
   @Input() numberCardData: string;
   
   single: any[];
-  view: any[] = [300, 500];
-  
+  view: any[] = [600, 300];
+  // view: any[] = [300, 300];
+  // view: any[] = [300, 500];  
 
   colorScheme = {
     domain: ['#5AA454', '#E44D25', '#CFC0BB', '#7aa3e5', '#a8385d', '#aae3f5']
