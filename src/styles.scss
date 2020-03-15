@@ -1,6 +1,9 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 *{
-    font-family: poppins,Arial,sans-serif;
+    // font-family: poppins,Arial,sans-serif;
+    font-family: Roboto, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
 }
 // Custom Theming for Angular Material
 // For more information: https://material.angular.io/guide/theming
