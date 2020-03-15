@@ -32,3 +32,18 @@
 .carousel-inner .carousel-item-left {
   transform: translateX(0);
 }
+
+.height-fixed{
+  height: 155px;
+}
+.carousel-control-prev-icon{
+padding: 15px;
+background-size: 15px;
+}
+.carousel-control-next-icon{
+  padding: 15px;
+  background-size: 15px;
+}
+header{
+  background-color: skyblue;
+}

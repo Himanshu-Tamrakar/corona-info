@@ -1,5 +1,11 @@
+<nav class="navbar navbar-dark bg-dark flex-md-nowrap p-0 shadow col-lg-12 col-md-12">
+    <div class="row">
+        <span class="col-lg-6">
+            <a class="navbar-brand col-sm-3 col-md-2 mr-0">News Feeds</a>
+        </span>
+    </div>
+</nav>
 <div class="container text-center my-3">
-  <!-- <h2 class="font-weight-light">Bootstrap 4 - Multi Item Carousel</h2> -->
   <div class="row mx-auto my-auto">
     <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
       <div class="carousel-inner w-100" role="listbox">
@@ -7,7 +13,7 @@
           [ngClass]="k == 0 ? 'active' : ''">
           <div *ngFor="let item of corousal; trackBy:index;" class="col-md-4">
             <div class="card">
-              <img class="card-img-top" [src]="item.img" alt="Card image cap">
+              <img class="card-img-top height-fixed" [src]="item.img" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">{{item.title}}e</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
@@ -28,5 +34,4 @@
       </a>
     </div>
   </div>
-  <!-- <h5 class="mt-2">Advances one slide at a time</h5> -->
 </div>
