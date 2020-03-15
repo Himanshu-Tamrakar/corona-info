@@ -5,6 +5,28 @@
         "indians": 67,
         "cured":10,
         "death": 2,
+        "tileChart": [
+            {
+                "name": "Total",
+                "value": 84
+              },
+              {
+                "name": "foriener",
+                "value": 17
+              },
+              {
+                "name": "Indians",
+                "value": 67
+              },
+              {
+                "name": "Cured",
+                "value": 10
+              },
+              {
+                "name": "death",
+                "value": 2
+              }
+        ],
         "bulletins": [
             {
                 "title": "India becomes fifth country to isolate Covid-19 virus strain",
@@ -35,6 +57,28 @@
             "indians": 7,
             "cured":1,
             "death": 1,
+            "tileChart": [
+                {
+                    "name": "Total",
+                    "value": 9
+                  },
+                  {
+                    "name": "foriener",
+                    "value": 0
+                  },
+                  {
+                    "name": "Indians",
+                    "value": 7
+                  },
+                  {
+                    "name": "Cured",
+                    "value": 1
+                  },
+                  {
+                    "name": "death",
+                    "value": 1
+                  }
+            ],
             "bulletins": [
                 {
                     "title": "IIT Delhi Asks Students to Vacate Campus by March 15",
@@ -63,6 +107,28 @@
             "indians": 0,
             "cured":0,
             "death": 0,
+            "tileChart": [
+                {
+                    "name": "Total",
+                    "value": 84
+                  },
+                  {
+                    "name": "foriener",
+                    "value": 17
+                  },
+                  {
+                    "name": "Indians",
+                    "value": 67
+                  },
+                  {
+                    "name": "Cured",
+                    "value": 10
+                  },
+                  {
+                    "name": "death",
+                    "value": 2
+                  }
+            ],
             "bulletins": [
                 {
                     "title": "Haryana govt shuts all universities, colleges till March 31 due to coronavirus",
@@ -87,6 +153,28 @@
             "indians": 19,
             "cured":3,
             "death": 0,
+            "tileChart": [
+                {
+                    "name": "Total",
+                    "value": 84
+                  },
+                  {
+                    "name": "foriener",
+                    "value": 17
+                  },
+                  {
+                    "name": "Indians",
+                    "value": 67
+                  },
+                  {
+                    "name": "Cured",
+                    "value": 10
+                  },
+                  {
+                    "name": "death",
+                    "value": 2
+                  }
+            ],
             "bulletins": [
                 {
                     "title": "Kerala government releases route map of journey of 3-member family from Italy",
@@ -111,6 +199,28 @@
             "indians": 1,
             "cured":1,
             "death": 0,
+            "tileChart": [
+                {
+                    "name": "Total",
+                    "value": 84
+                  },
+                  {
+                    "name": "foriener",
+                    "value": 17
+                  },
+                  {
+                    "name": "Indians",
+                    "value": 67
+                  },
+                  {
+                    "name": "Cured",
+                    "value": 10
+                  },
+                  {
+                    "name": "death",
+                    "value": 2
+                  }
+            ],
             "bulletins": [
                 {
                     "title": "Rajasthan closes schools, cinema halls till March 30",
@@ -139,6 +249,28 @@
             "indians": 1,
             "cured":0,
             "death": 0,
+            "tileChart": [
+                {
+                    "name": "Total",
+                    "value": 84
+                  },
+                  {
+                    "name": "foriener",
+                    "value": 17
+                  },
+                  {
+                    "name": "Indians",
+                    "value": 67
+                  },
+                  {
+                    "name": "Cured",
+                    "value": 10
+                  },
+                  {
+                    "name": "death",
+                    "value": 2
+                  }
+            ],
             "bulletins": [
                 {
                     "title": "Second coronavirus positive case in Telangana",
@@ -167,6 +299,28 @@
             "indians": 11,
             "cured":5,
             "death": 0,
+            "tileChart": [
+                {
+                    "name": "Total",
+                    "value": 84
+                  },
+                  {
+                    "name": "foriener",
+                    "value": 17
+                  },
+                  {
+                    "name": "Indians",
+                    "value": 67
+                  },
+                  {
+                    "name": "Cured",
+                    "value": 10
+                  },
+                  {
+                    "name": "death",
+                    "value": 2
+                  }
+            ],
             "bulletins": [
                 {
                     "title": "Uttar Pradesh shuts schools, colleges till 22 March",
@@ -195,6 +349,28 @@
             "indians": 3,
             "cured":0,
             "death": 0,
+            "tileChart": [
+                {
+                    "name": "Total",
+                    "value": 84
+                  },
+                  {
+                    "name": "foriener",
+                    "value": 17
+                  },
+                  {
+                    "name": "Indians",
+                    "value": 67
+                  },
+                  {
+                    "name": "Cured",
+                    "value": 10
+                  },
+                  {
+                    "name": "death",
+                    "value": 2
+                  }
+            ],
             "bulletins": [
                 {
                     "title": "Doctors flag inadequate testing facilities, shortage of masks, sanitisers",
@@ -223,6 +399,28 @@
             "indians": 1,
             "cured":0,
             "death": 0,
+            "tileChart": [
+                {
+                    "name": "Total",
+                    "value": 84
+                  },
+                  {
+                    "name": "foriener",
+                    "value": 17
+                  },
+                  {
+                    "name": "Indians",
+                    "value": 67
+                  },
+                  {
+                    "name": "Cured",
+                    "value": 10
+                  },
+                  {
+                    "name": "death",
+                    "value": 2
+                  }
+            ],
             "bulletins": [
                 {
                     "title": "Schools shut for KG students in Tamil Nadu till March 31",
@@ -251,6 +449,28 @@
             "indians": 2,
             "cured":0,
             "death": 0,
+            "tileChart": [
+                {
+                    "name": "Total",
+                    "value": 84
+                  },
+                  {
+                    "name": "foriener",
+                    "value": 17
+                  },
+                  {
+                    "name": "Indians",
+                    "value": 67
+                  },
+                  {
+                    "name": "Cured",
+                    "value": 10
+                  },
+                  {
+                    "name": "death",
+                    "value": 2
+                  }
+            ],
             "bulletins": [
                 {
                     "title": "J&K HC admits PIL on coronavirus",
@@ -279,6 +499,28 @@
             "indians": 1,
             "cured":0,
             "death": 0,
+            "tileChart": [
+                {
+                    "name": "Total",
+                    "value": 84
+                  },
+                  {
+                    "name": "foriener",
+                    "value": 17
+                  },
+                  {
+                    "name": "Indians",
+                    "value": 67
+                  },
+                  {
+                    "name": "Cured",
+                    "value": 10
+                  },
+                  {
+                    "name": "death",
+                    "value": 2
+                  }
+            ],
             "bulletins": [
                 {
                     "title": "Over 300 with travel history to coronavirus-hit countries untraceable",
@@ -308,6 +550,28 @@
             "indians": 6,
             "cured":0,
             "death": 1,
+            "tileChart": [
+                {
+                    "name": "Total",
+                    "value": 84
+                  },
+                  {
+                    "name": "foriener",
+                    "value": 17
+                  },
+                  {
+                    "name": "Indians",
+                    "value": 67
+                  },
+                  {
+                    "name": "Cured",
+                    "value": 10
+                  },
+                  {
+                    "name": "death",
+                    "value": 2
+                  }
+            ],
             "bulletins": [
                 {
                     "title": "Karnataka government shuts malls, schools, says no to mass gathering due to coronavirus",
@@ -337,6 +601,28 @@
             "indians": 14,
             "cured":0,
             "death": 0,
+            "tileChart": [
+                {
+                    "name": "Total",
+                    "value": 84
+                  },
+                  {
+                    "name": "foriener",
+                    "value": 17
+                  },
+                  {
+                    "name": "Indians",
+                    "value": 67
+                  },
+                  {
+                    "name": "Cured",
+                    "value": 10
+                  },
+                  {
+                    "name": "death",
+                    "value": 2
+                  }
+            ],
             "bulletins": [
                 {
                     "title": "Maharashtra closes malls till 31 March, postpones exams up to Class 9 as number of reported cases rises to 26",
@@ -361,6 +647,28 @@
             "indians": 1,
             "cured":0,
             "death": 0,
+            "tileChart": [
+                {
+                    "name": "Total",
+                    "value": 84
+                  },
+                  {
+                    "name": "foriener",
+                    "value": 17
+                  },
+                  {
+                    "name": "Indians",
+                    "value": 67
+                  },
+                  {
+                    "name": "Cured",
+                    "value": 10
+                  },
+                  {
+                    "name": "death",
+                    "value": 2
+                  }
+            ],
             "bulletins": [
                 {
                     "title": "Day after positive coronavirus case, Andhra Pradesh steps up vigil",
