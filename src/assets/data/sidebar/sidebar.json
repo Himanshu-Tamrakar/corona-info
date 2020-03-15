@@ -1,5 +1,6 @@
 {
     "india": {
+        "of": "India",
         "total": 118,
         "foriener": 17,
         "indians": 90,
@@ -30,6 +31,7 @@
     },
     
         "Delhi": {
+            "of": "Delhi",
             "total": 10,
             "foriener": 0,
             "indians": 7,
@@ -58,6 +60,7 @@
             ]
         },
         "Haryana": {
+            "of": "Haryana",
             "total": 14,
             "foriener": 14,
             "indians": 0,
@@ -82,6 +85,7 @@
             ]
         },
         "Kerela": {
+            "of": "Kerela",
             "total": 25,
             "foriener": 0,
             "indians": 22,
@@ -106,6 +110,7 @@
             ]
         },
         "Rajasthan": {
+            "of": "Rajasthan",
             "total": 4,
             "foriener": 2,
             "indians": 2,
@@ -134,6 +139,7 @@
             ]
         },
         "Telengana": {
+            "of": "Telengana",
             "total": 4,
             "foriener": 0,
             "indians": 3,
@@ -162,6 +168,7 @@
             ]
         },
         "Uttar Pradesh": {
+            "of": "Uttar Pradesh",
             "total": 15,
             "foriener": 1,
             "indians": 11,
@@ -190,6 +197,7 @@
             ]
         },
         "Union Territory of Ladakh": {
+            "of": "Union Territory of Ladakh",
             "total":3,
             "foriener": 0,
             "indians": 3,
@@ -218,6 +226,7 @@
             ]
         },
         "Tamil Nadu": {
+            "of": "Tamil Nadu",
             "total": 1,
             "foriener": 0,
             "indians": 1,
@@ -246,6 +255,7 @@
             ]
         },
         "Union Territory of Jammu and Kashmir": {
+            "of": "Union Territory of Jammu and Kashmir",
             "total": 2,
             "foriener": 0,
             "indians": 2,
@@ -274,6 +284,7 @@
             ]
         },
         "Punjab": {
+            "of": "Punjab",
             "total": 1,
             "foriener": 0,
             "indians": 1,
@@ -303,6 +314,7 @@
         },
 
         "Karnataka": {
+            "of": "Karnataka",
             "total": 7,
             "foriener": 0,
             "indians": 6,
@@ -332,6 +344,7 @@
         },
 
         "Maharashtra": {
+            "of": "Maharashtra",
             "total": 31,
             "foriener": 0,
             "indians": 31,
@@ -357,6 +370,7 @@
             ]
         },
         "Andhra Pradesh": {
+            "of": "Andhra Pradesh",
             "total": 1,
             "foriener": 0,
             "indians": 1,

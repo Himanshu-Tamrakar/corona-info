@@ -7,9 +7,10 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./main-content.component.scss']
 })
 export class MainContentComponent implements OnInit {
-
+  title:string;
   @Input('itemForMainContent')
   set item(val: any) {
+    this.title = val['of'];
     this.pieGridData = [
       {
         "name": "Total Indian Infected",
