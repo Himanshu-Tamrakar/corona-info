@@ -1,4 +1,5 @@
-<nav class="navbar navbar-dark bg-dark flex-md-nowrap p-0 shadow col-lg-12 col-md-12 mt-2">
+<nav class="navbar navbar-dark bg-dark flex-md-nowrap p-0 shadow col-lg-12 col-md-12 mt-2" style="
+background-color: #a284d8 !important;">
     <div class="row">
         <span class="col-lg-6">
             <a class="navbar-brand col-sm-3 col-md-2 mr-0" style="font-size: 14px;">News Feeds</a>
@@ -11,7 +12,7 @@
       <div class="carousel-inner w-100" role="listbox">
         <div class="carousel-item" *ngFor="let corousal of data; trackBy:index; let k = index"
           [ngClass]="k == 0 ? 'active' : ''">
-          <div *ngFor="let item of corousal; trackBy:index;" class="col-md-4">
+          <div *ngFor="let item of corousal; trackBy:index;" class="col-md-4 color-card">
             <div class="card card-height-fixed">
               <img class="card-img-top height-fixed" [src]="item.img" alt="Card image cap">
               <div class="card-body">
