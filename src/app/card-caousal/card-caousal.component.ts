@@ -19,7 +19,7 @@ export class CardCaousalComponent implements OnInit {
 
   ngOnInit() {
     $('#recipeCarousel').carousel({
-      interval: 10000
+      interval: 5000
     })
 
     $('.carousel .carousel-item').each(function () {
