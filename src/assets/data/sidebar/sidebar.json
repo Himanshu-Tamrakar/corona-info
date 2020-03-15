@@ -1,9 +1,9 @@
 {
     "india": {
-        "total": 84,
+        "total": 118,
         "foriener": 17,
-        "indians": 67,
-        "cured":10,
+        "indians": 90,
+        "cured":9,
         "death": 2,
         "bulletins": [
             {
@@ -30,10 +30,10 @@
     },
     
         "Delhi": {
-            "total": 9,
+            "total": 10,
             "foriener": 0,
             "indians": 7,
-            "cured":1,
+            "cured":2,
             "death": 1,
             "bulletins": [
                 {
@@ -82,9 +82,9 @@
             ]
         },
         "Kerela": {
-            "total": 22,
+            "total": 25,
             "foriener": 0,
-            "indians": 19,
+            "indians": 22,
             "cured":3,
             "death": 0,
             "bulletins": [
@@ -108,8 +108,8 @@
         "Rajasthan": {
             "total": 4,
             "foriener": 2,
-            "indians": 1,
-            "cured":1,
+            "indians": 2,
+            "cured":0,
             "death": 0,
             "bulletins": [
                 {
@@ -134,10 +134,10 @@
             ]
         },
         "Telengana": {
-            "total": 1,
+            "total": 4,
             "foriener": 0,
-            "indians": 1,
-            "cured":0,
+            "indians": 3,
+            "cured":1,
             "death": 0,
             "bulletins": [
                 {
@@ -162,10 +162,10 @@
             ]
         },
         "Uttar Pradesh": {
-            "total": 17,
+            "total": 15,
             "foriener": 1,
             "indians": 11,
-            "cured":5,
+            "cured":3,
             "death": 0,
             "bulletins": [
                 {
@@ -332,9 +332,9 @@
         },
 
         "Maharashtra": {
-            "total": 14,
+            "total": 31,
             "foriener": 0,
-            "indians": 14,
+            "indians": 31,
             "cured":0,
             "death": 0,
             
