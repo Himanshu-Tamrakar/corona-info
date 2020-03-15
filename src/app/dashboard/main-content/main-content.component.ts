@@ -13,11 +13,11 @@ export class MainContentComponent implements OnInit {
     this.title = val['of'];
     this.pieGridData = [
       {
-        "name": "Total Indian Infected",
+        "name": "Indian Infected",
         "value": val['indians']
       },
       {
-        "name": "Total Forreigner Infected",
+        "name": "Forreigner Infected",
         "value": val['foriener']
       },
       {
