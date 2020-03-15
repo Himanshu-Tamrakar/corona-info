@@ -1,5 +1,14 @@
-<ul>
-    <li *ngFor="let item of bulletins">
-        <a [href]="item.url"> {{item.title}}</a>
-    </li>
-</ul>
+<div class="panel panel-warning">
+        <nav class="navbar navbar-dark bg-dark flex-md-nowrap p-0 shadow col-lg-12 col-md-12" style="background-color: #a284d8 !important;">
+                <div class="row">
+                        <span class="col-lg-6">
+                                <a class="navbar-brand col-sm-3 col-md-2 mr-0"
+                                        style="font-size: 14px;font-weight: bold;">News Update</a>
+                        </span>
+                </div>
+        </nav>
+        <ul class="list-group">
+                <a [href]="item.url" class="list-group-item padding-style" *ngFor="let item of bulletins">
+                        {{item.title}}</a>
+        </ul>
+</div>
