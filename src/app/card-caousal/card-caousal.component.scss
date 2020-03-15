@@ -50,12 +50,13 @@ header{
 .font-size-p-slider{
   font-size: 14px;
   font-weight: bold;
+  margin-bottom: 47px;
 }
 .card-height-fixed{
   height: 100%;
 }
 .bottom-button{
-  // position: absolute;
-  // right: 80px;
-  // bottom:8px;
+  position: absolute;
+  bottom: 7px;
+  right: 75px;
 }
