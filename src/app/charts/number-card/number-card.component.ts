@@ -13,7 +13,7 @@ export class NumberCardComponent implements OnInit {
   @Input() numberCardData: string;
   
   single: any[];
-  view: any[] = [700, 400];
+  view: any[] = [300, 500];
   
 
   colorScheme = {
