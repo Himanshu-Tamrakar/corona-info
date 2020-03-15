@@ -2,24 +2,26 @@
   <div class="col-lg-12 col-md-12 mb-12 row pr-0 mr-0">
     <nav class="mb-2 navbar navbar-dark bg-dark flex-md-nowrap p-0 shadow col-lg-12 col-md-12 mt-2" style="
 background-color: #a284d8 !important; margin-left: -12px;">
-    <div class="row">
+      <div class="row">
         <span class="col-lg-6">
-            <a class="navbar-brand col-sm-3 col-md-2 mr-0" style="font-size: 14px; font-weight: BOLD;">Data collection</a>
+          <a class="navbar-brand col-sm-3 col-md-2 mr-0" style="font-size: 14px; font-weight: BOLD;">{{title}}</a>
         </span>
-    </div>
-</nav>
-<app-advance-pie-chart [advancePieData]="pieGridData"
-class="row mr-0 pr-0 col-lg-9 mb-5 bg-white d-flex align-items-center shadow-sm rounded h-100"></app-advance-pie-chart>
+      </div>
+    </nav>
+    <app-advance-pie-chart [advancePieData]="pieGridData"
+      class="row mr-0 pr-0 col-lg-9 mb-5 bg-white d-flex align-items-center shadow-sm rounded h-100">
+    </app-advance-pie-chart>
     <app-bulletin [bulletins]="bulletins"
       class="mr-0 ml-2 col-lg-3 mb-5 p-3 bg-white d-flex align-items-center shadow-sm rounded h-100"></app-bulletin>
   </div>
 </div>
 <div class='container-fluid pr-0 mr-0 mt-2'>
   <div class="col-lg-12 col-md-12 mb-12 row pr-0 mr-0 mt-1">
-    <app-card-caousal class="row col-lg-12 mb-5 bg-white d-flex align-items-center shadow-sm rounded h-100"></app-card-caousal>
+    <app-card-caousal class="row col-lg-12 mb-5 bg-white d-flex align-items-center shadow-sm rounded h-100">
+    </app-card-caousal>
   </div>
-  <div class="col-lg-12 col-md-12 mb-12 row pr-0 mr-0">
+  <!-- <div class="col-lg-12 col-md-12 mb-12 row pr-0 mr-0">
     <app-line-chart class="row col-lg-12 mb-5 bg-white d-flex align-items-center shadow-sm rounded h-100">
     </app-line-chart>
-  </div>
+  </div> -->
 </div>
